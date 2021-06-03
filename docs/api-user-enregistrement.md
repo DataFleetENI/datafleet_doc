@@ -9,7 +9,7 @@ slug: /api-user-enregistrement
 
 L'api d'enregistrement permet de sauvegarder un utilisateur dans la base de données.
 
-Elle prend en paramètre d'entrée les éléments de connexion au format JSON.
+Elle prend en paramètre d'entrée les données à enregistrer au format JSON.
 
 ---
 
@@ -43,6 +43,8 @@ Préciser qu'il s'agt d'une méthode POST afin qu'il puisse prendre en compte le
 "reason": "Registration completed"
 }
 ```
+L'utilisateur reçoit le mail suivant :
+![img](/img/mail_bienvenue.png)
 
 #### Echec, données obligatoires manquantes
 ```typescript
