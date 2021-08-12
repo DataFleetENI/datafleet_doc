@@ -1,7 +1,16 @@
 module.exports = {
   someSidebar: {
     'Docusaurus': ['getting-started', 'create-a-page'],
-    'Application Datafleet': ['import-users','api-user-connexion','api-user-enregistrement', 'pwa'],
+    'Datafleet Documentation Technique': [
+      'doc-tech/import-users',
+      'doc-tech/api-user-connexion',
+      'doc-tech/api-user-enregistrement', 
+      'doc-tech/pwa'
+    ],
+    'Datafleet Documentation Utilisateur': [
+      'doc-user/login-user', 
+      'doc-user/profile-user'
+    ],
     'Outils externes': ['logrocket'],
   },
 };
